@@ -1,0 +1,19 @@
+# Ignorar arquivos grandes e desnecessários
+*.exe
+*.msi
+*.zip
+*.rar
+*.7z
+*.iso
+*.mp4
+*.mov
+*.avi
+*.mp3
+*.wav
+node_modules/
+dist/
+build/
+.cache/
+.DS_Store
+Thumbs.db
+
