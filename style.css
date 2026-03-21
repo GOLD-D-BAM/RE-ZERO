@@ -1,6 +1,12 @@
 
+
+
+
+
+
+
 body {
-    background-color: rgb(52, 5, 141);
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -85,3 +91,27 @@ title {
     font-size: 24px;
 }
 
+
+#box-01 { 
+    padding: 0px;
+    margin: 50px auto;
+    width: 50%;
+    max-width: 300px;
+
+}
+body.pagina2 {
+background-color: black;
+backdrop-filter: blur(25px);
+}
+
+
+.tiktok, .twitch, .livepix, .discord {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+}

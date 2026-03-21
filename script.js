@@ -1,15 +1,13 @@
 
-<script>
-function continue() {
-    window.location.href = "pagina2.html"; }
+async function verificarUser() {
+  const { data } = await supabase.auth.getUser();
 
+  if (!data.user) {
+    window.location.href = "index.html"; // bloqueia acesso
+  }
+}
 
-
-function continue() {
-    window.location.href = "pagina3.html"; }
-
-    
-
-
-     </script>
-
+async function logout() {
+  await supabase.auth.signOut();
+  window.location.href = "index.html";
+}
